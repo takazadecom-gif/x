@@ -13,13 +13,13 @@ function Contact() {
           contact<span className="text-cyan-400">_</span>
         </h2>
 
-        <div className={`backdrop-blur-md border rounded-3xl p-12 shadow-2xl transition-all duration-300 ${
+        <div className={`backdrop-blur-md border rounded-3xl p-12 shadow-2xl animate-slide-in stagger-1 ${
           isDark
             ? 'bg-white/3 border-white/10'
             : 'bg-gray-800/3 border-gray-800/20'
         }`}>
           <div className="space-y-8">
-            <div className="flex items-center gap-4 group">
+            <div className="flex items-center gap-4 group animate-slide-in stagger-2">
               <Instagram className="text-cyan-400" size={24} />
               <div>
                 <p className={`text-sm transition-colors duration-300 ${
@@ -36,7 +36,7 @@ function Contact() {
               </div>
             </div>
 
-            <div className="flex items-center gap-4 group">
+            <div className="flex items-center gap-4 group animate-slide-in stagger-3">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="text-cyan-400">
                 <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.657l-5.223-6.82-5.974 6.82h-3.31l7.732-8.835L2.882 2.25h6.822l4.79 6.335 5.486-6.335z"/>
               </svg>
@@ -55,7 +55,7 @@ function Contact() {
               </div>
             </div>
 
-            <div className="flex items-center gap-4 group">
+            <div className="flex items-center gap-4 group animate-slide-in stagger-4">
               <Linkedin className="text-cyan-400" size={24} />
               <div>
                 <p className={`text-sm transition-colors duration-300 ${
@@ -72,7 +72,7 @@ function Contact() {
               </div>
             </div>
 
-            <div className="flex items-center gap-4 group">
+            <div className="flex items-center gap-4 group animate-slide-in stagger-5">
               <Mail className="text-cyan-400" size={24} />
               <div>
                 <p className={`text-sm transition-colors duration-300 ${

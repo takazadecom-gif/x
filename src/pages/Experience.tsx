@@ -12,7 +12,7 @@ function Experience() {
           experience<span className="text-cyan-400">_</span>
         </h2>
         <div className="space-y-6">
-          <div className={`backdrop-blur-md border rounded-3xl p-8 shadow-2xl hover:transition-all transition-all duration-300 ${
+          <div className={`backdrop-blur-md border rounded-3xl p-8 shadow-2xl hover:transition-all transition-all duration-300 animate-slide-in stagger-1 ${
             isDark
               ? 'bg-white/3 border-white/10 hover:bg-white/5'
               : 'bg-gray-800/3 border-gray-800/20 hover:bg-gray-800/5'
@@ -27,7 +27,7 @@ function Experience() {
               I designed and built Turkey's first talent-exchange platform from scratch. No funding, no team. I handled the product, logic, and launch myself. The platform allows users to trade skills the same way they would trade any real resource.
             </p>
           </div>
-          <div className={`backdrop-blur-md border rounded-3xl p-8 shadow-2xl hover:transition-all transition-all duration-300 ${
+          <div className={`backdrop-blur-md border rounded-3xl p-8 shadow-2xl hover:transition-all transition-all duration-300 animate-slide-in stagger-2 ${
             isDark
               ? 'bg-white/3 border-white/10 hover:bg-white/5'
               : 'bg-gray-800/3 border-gray-800/20 hover:bg-gray-800/5'
@@ -42,7 +42,7 @@ function Experience() {
               I develop n8n-based automation systems for e-commerce brands. These include order flow automation, customer communication workflows, data processing pipelines, and backend operation tools. Every project focuses on the same goal: reducing manual workload and speeding up daily operations.
             </p>
           </div>
-          <div className={`backdrop-blur-md border rounded-3xl p-8 shadow-2xl hover:transition-all transition-all duration-300 ${
+          <div className={`backdrop-blur-md border rounded-3xl p-8 shadow-2xl hover:transition-all transition-all duration-300 animate-slide-in stagger-3 ${
             isDark
               ? 'bg-white/3 border-white/10 hover:bg-white/5'
               : 'bg-gray-800/3 border-gray-800/20 hover:bg-gray-800/5'
@@ -57,7 +57,7 @@ function Experience() {
               I take products from idea to live version. I handle design, logic, prototyping, iteration, and deployment myself. My workflow is simple: build fast, test immediately, improve continuously, ship again.
             </p>
           </div>
-          <div className={`backdrop-blur-md border rounded-3xl p-8 shadow-2xl hover:transition-all transition-all duration-300 ${
+          <div className={`backdrop-blur-md border rounded-3xl p-8 shadow-2xl hover:transition-all transition-all duration-300 animate-slide-in stagger-4 ${
             isDark
               ? 'bg-white/3 border-white/10 hover:bg-white/5'
               : 'bg-gray-800/3 border-gray-800/20 hover:bg-gray-800/5'
