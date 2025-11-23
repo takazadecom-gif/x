@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Experience from './pages/Experience';
 import Contact from './pages/Contact';
-import profileImg from './mehmetresitgul.png';
+import profileImg from './mehmetresitgul.com.png';
 
 function AppContent() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -156,8 +156,8 @@ function AppContent() {
         ctx.beginPath();
         ctx.arc(dot.x, dot.y, 1.5, 0, Math.PI * 2);
 
-        const baseGray = isDark ? 100 : 180;
-        const baseAlpha = isDark ? 0.3 : 0.4;
+        const baseGray = isDark ? 100 : 40;
+        const baseAlpha = isDark ? 0.3 : 0.7;
         const white = 255;
 
         const brightnessFactor = Math.max(dot.brightness, dot.trail);
