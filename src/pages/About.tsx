@@ -5,7 +5,7 @@ function About() {
   const { isDark } = useTheme();
 
   return (
-    <section className="min-h-screen pt-32 pb-20 relative z-10">
+    <section className="min-h-screen pt-20 pb-20 relative z-10">
       <div className="max-w-4xl mx-auto px-8">
         <h2 className={`text-5xl font-bold mb-12 transition-colors duration-300 ${
           isDark ? 'text-white' : 'text-gray-900'
